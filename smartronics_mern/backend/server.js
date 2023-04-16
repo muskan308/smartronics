@@ -10,7 +10,7 @@ import productRoutes from './routes/productRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 import orderRoutes from './routes/orderRoutes.js'
 import uploadRoutes from './routes/uploadRoutes.js'
-const cors_proxy = require('cors-anywhere');
+import cors_proxy from 'cors-anywhere'
 
 dotenv.config()
 
